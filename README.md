@@ -31,37 +31,6 @@ A PHP weather app that shows the 5-day forecast for any city in 3-hour steps. Us
 - PHP 8.0 or later
 - A free API key from [OpenWeatherMap](https://openweathermap.org/api)
 
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/SM-Aqib-Hossain/Live-Weather-Web-APP.git
-cd Live-Weather-Web-APP
-```
-
-### 2. Set your API key
-
-The app reads the key from an environment variable, so it never needs to be stored in the code.
-
-Linux or macOS:
-
-```bash
-export OPENWEATHER_API_KEY="your_api_key_here"
-```
-
-Windows PowerShell:
-
-```powershell
-$env:OPENWEATHER_API_KEY = "your_api_key_here"
-```
-
-### 3. Run the app
-
-```bash
-php -S localhost:8000
-```
-
-Open `http://localhost:8000` in your browser.
-
 ## Project Structure
 
 ```
@@ -71,11 +40,6 @@ Live-Weather-Web-APP/
 ├── bg.jpg           Background image
 └── README.md
 ```
-
-## Notes
-
-- Free OpenWeatherMap keys have rate limits. If you see the "unavailable" message often, wait a few minutes or check your usage on the dashboard.
-- Never commit your API key to the repository.
 
 ## Author
 
